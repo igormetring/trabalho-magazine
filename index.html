@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harppia</title>
+    <title>Magazine</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
         <header>
             <div class="header-container">
                 <div id="headerLeft">
-                    <h1>Harppia</h1>
+                    <img src="magazini.png" width="120px">
                 </div>
                 <div id="headerRight">
                     <div class="nav">
-                        <a href="#">Inicio</a>
+                        <a href="#main-inicio">Inicio</a>
                         <a href="#">Shows</a>
                         <a href="#">Sobre</a>
                         <a href="#">Banda</a>
@@ -24,5 +31,66 @@
             </div>
         </header>
     </div>
+    <main>
+        <section id="main-inicio">
+            <h1>Magazine</h1>
+            <p id="">"Basta ser sincero e desejar profundo, você será capaz de sacudir o mundo"</p>
+            <p id="">- Raul Seixas</p>
+            <button id="button-show">Ver Shows</button>
+        </section>
+        <h1 id="main-title">Sobre a Banda</h1>
+        <div class="sobre">
+            <div class="sobre-texto">
+                <p>O Magazine foi uma banda brasileira de new wave, formada em São Paulo, no início dos anos 1980, que
+                    contava, em sua formação, com Kid Vinil (vocais), Lu Stopa (baixo), Trinkão (bateria) e Ted Gaz.</p>
+                <p>A banda começou com o nome Verminose, sendo trocado para Magazine por ocasião da assinatura do
+                    contrato com a WEA (atual Warner Music), por questões comerciais.</p>
+                <p>Em 1980, o ainda desconhecido Antonio Carlos Senefonte juntou-se ao baterista Trinkão, ao baixista Lu
+                    Stopa e ao roadie Philé, que logo daria lugar a Minho K (pseudônimo artístico de Celso Pucci) para
+                    gravar uma demotape, hoje perdida. O nome da banda - Verminose - foi uma sugestão do radialista Alf
+                    Soares.</p>
+            </div>
+            <div class="sobre-img">
+                <img src="bandamagazine.png">
+            </div>
+        </div>
+
+        <h1 id="show-title">Próximos Shows</h1>
+        <section class="main-shows">
+            <div class="shows">
+                <h3 id="name">🎵 Skarhold</h3>
+                <p id="local">📍Coritiba-PR</p>
+                <p id="time">🕒21:30</p>
+            </div>
+
+            <div class="shows">
+                <h3 id="name">🎵 Porto das Sombras</h3>
+                <p id="local">📍Assis-PR</p>
+                <p id="time">🕒03:00</p>
+            </div>
+
+            <div class="shows">
+                <h3 id="name">🎵 Vila dos Esquecidos</h3>
+                <p id="local">📍Xique-Xique-BH</p>
+                <p id="time">🕒15:00</p>
+            </div>
+
+            <div class="shows">
+                <h3 id="name">🎵 Zona Invisível</h3>
+                <p id="local">📍Borrazópolis-PR</p>
+                <p id="time">🕒12:00</p>
+            </div>
+
+            <div class="shows">
+                <h3 id="name">🎵 Vale Silencioso</h3>
+                <p id="local">📍Apucarana</p>
+                <p id="time">🕒18:00</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>© 2025 - Desenvolvido por <strong>Igor Metring</strong>. <i>Todos os direitos reservados.</i></p>
+    </footer>
 </body>
+
 </html>
